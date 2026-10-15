@@ -26,30 +26,34 @@
       <h1>Support</h1>
 
       <h2>Contact</h2>
-      <p class="note">Write to <a href="mailto:support@flowdays.app"><strong>support@flowdays.app</strong></a>. We answer within 3 working days. You can write in English, Azerbaijani, Russian or Turkish.</p>
+      <p class="note">Write to <strong><a href="mailto:support@flowdays.app">support@flowdays.app</a></strong>. We answer within 3 working days. You can write in English, Azerbaijani, Russian or Turkish.</p>
 
       <h2>Before you write</h2>
       <p>Telling us these three things usually saves a round trip:</p>
       <ol>
         <li>What you expected to happen, and what happened instead.</li>
-        <li>The app version — on your phone open Settings → Apps → FlowDays; the version is on that page (for example <code>0.1.0</code>).</li>
-        <li>Your phone model and Android version.</li>
+        <li>The app version — on Android open Settings → Apps → FlowDays; the version is on that page (for example <code>0.1.0</code>). On iPhone open Settings → General → iPhone Storage → FlowDays.</li>
+        <li>Your phone model and its Android or iOS version.</li>
       </ol>
       <p>Screenshots help. Please hide anything private in them; we do not need your task names to reproduce most problems.</p>
 
       <h2>Frequent questions</h2>
       <p><strong>My Google Calendar events do not appear.</strong><br>
-      In FlowDays, Google Calendar must show as connected. FlowDays reads your main calendar and the calendars that are turned on (checked) in Google Calendar — turn a calendar on there to include it. If events were created on the phone and do not show up, open the Google Calendar app and refresh it — events sync to Google's servers before FlowDays can read them.</p>
+      Google Calendar works in the Android app. In FlowDays, Google Calendar must show as connected. FlowDays reads your main calendar and the calendars that are turned on (checked) in Google Calendar — turn a calendar on there to include it. If events were created on the phone and do not show up, open the Google Calendar app and refresh it — events sync to Google's servers before FlowDays can read them.</p>
       <p><strong>Reminders do not arrive.</strong><br>
-      Android must allow notifications for FlowDays (Settings → Apps → FlowDays → Notifications), and battery saving must not be restricting the app.</p>
+      Android must allow notifications for FlowDays (Settings → Apps → FlowDays → Notifications), and battery saving must not be restricting the app. On iPhone, allow them in Settings → Notifications → FlowDays.</p>
       <p><strong>Voice input does not write anything.</strong><br>
-      Voice uses your phone's own speech recognition. It needs the microphone permission and, on most phones, an internet connection or a downloaded offline language. Check that the voice language in FlowDays matches the language you speak.</p>
+      Voice needs the microphone permission. When the AI assistant is on, your voice is turned into text on our server (with OpenAI), so it needs an internet connection. Otherwise voice uses your phone's own speech recognition, which on most phones needs an internet connection or a downloaded offline language. Check that the voice language in FlowDays matches the language you speak.</p>
       <p><strong>I cannot sign in.</strong><br>
-      Google sign-in needs the Google account you pick on your phone and an internet connection. Email sign-in sends a 6-digit code to your address; it is valid for 10 minutes — check your spam folder, and ask for a new code if it has run out. If you still cannot get in, write to us and tell us which way you sign in.</p>
+      Google sign-in needs the Google account you pick on your phone and an internet connection. On iPhone, Sign in with Apple uses the Apple account of the iPhone. Email sign-in (Android) sends a 6-digit code to your address; it is valid for 10 minutes — check your spam folder, and ask for a new code if it has run out. If you still cannot get in, write to us and tell us which way you sign in.</p>
       <p><strong>Where is my data?</strong><br>
-      Your tasks, notes, plans and attachments are on your phone only. Your account (name, birthday, how you sign in) is on our server, and usage statistics only if you said yes. Uninstalling the app deletes what is on the phone; to delete the account, open Settings → your name → <strong>Delete account</strong>, or see <a href="/delete-account">flowdays.app/delete-account</a>. If Android backup is on, your phone's backup in your Google account may include the app's local data. See the <a href="/privacy">Privacy Policy</a>.</p>
+      Your tasks, notes, plans and attachments are on your phone only. Your account (how you sign in and, on Android, your name and birthday) is on our server, and usage statistics only if you said yes. If you use the AI assistant, your requests and the tasks it looks at go through our server to OpenAI, which prepares the answers; if you speak to it, the recording goes the same way to be turned into text and is not kept on our server. We keep requests (typed or made from your voice) and answers for 30 days. Uninstalling the app deletes what is on the phone; to delete the account, open Settings → your name → <strong>Delete account</strong> (Android) or Settings → AI → <strong>Delete account</strong> (iPhone), or see <a href="/delete-account">flowdays.app/delete-account</a>. If Android backup is on, your phone's backup in your Google account may include the app's local data; the same goes for an iCloud backup of your iPhone. See the <a href="/privacy">Privacy Policy</a>.</p>
       <p><strong>How do I turn off statistics?</strong><br>
-      Settings → your name → <strong>Statistics</strong>. Turning it off stops everything at once; the app also offers to delete what we already received.</p>
+      On Android: Settings → your name → <strong>Statistics</strong>. Turning it off stops everything at once; the app also offers to delete what we already received. The iPhone app does not send statistics.</p>
+      <p><strong>How do I turn off the AI assistant?</strong><br>
+      Settings → <strong>AI</strong>, switch off <strong>AI on the server</strong> (Android) or <strong>Allow processing of tasks and speech</strong> (iPhone). It stops at once and FlowDays sends nothing more to it; everything else keeps working. What we already keep is deleted after 30 days (requests and answers) and 180 days (numbers), or at once if you delete your account.</p>
+      <p><strong>The AI assistant got something wrong.</strong><br>
+      Tap <strong>Report</strong> next to the answer — it reaches our team. Changes the assistant made at once can be undone with the button that appears after them; deleting and larger changes always wait for you to confirm.</p>
 
       <h2>Reporting a security problem</h2>
       <p>Write to <a href="mailto:support@flowdays.app">support@flowdays.app</a> with "security" in the subject. Please give us a reasonable time to fix the issue before publishing it.</p>
