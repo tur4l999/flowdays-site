@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1f3a">
-  <meta name="description" content="How FlowDays handles your data: your account, the AI assistant, optional usage statistics, tasks that stay on your phone, no ads.">
+  <meta name="description" content="How FlowDays handles your data: your account, task sync on iPhone, the AI assistant, optional usage statistics, no ads.">
   <title>Privacy Policy — FlowDays</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -27,12 +27,12 @@
       <p><strong>App:</strong> FlowDays for Android and iPhone (<code>app.flowdays.planner</code>)<br>
 <strong>Publisher:</strong> Keystone TL Apex Holdings LLC (developer name on Google Play: TI Labs), Wyoming, United States<br>
 <strong>Contact:</strong> <a href="mailto:support@flowdays.app">support@flowdays.app</a><br>
-<strong>Version:</strong> 2.0 — effective 15 October 2026</p>
+<strong>Version:</strong> 2.1 — effective 16 October 2026</p>
 
       <h2>Short version</h2>
       <ul>
         <li>FlowDays needs an <strong>account</strong>. On Android you sign in with Google or with a code we email you, and tell us your name, birthday and what you want to use FlowDays for. On iPhone you sign in with Apple or Google; the iPhone app does not ask for your name or birthday.</li>
-        <li>Your <strong>tasks, plans, notes and attachments stay on your phone</strong>. In this version they are not uploaded to our servers — except what you send to the AI assistant, if you use it (next point).</li>
+        <li><strong>On iPhone your tasks sync with your account.</strong> Each task's title, notes, subtasks, times, reminders and repeats are kept on our server, so that they are the same on every device you sign in on and come back on a new phone. Files and photos you attach, and your settings, stay on the phone. <strong>On Android your tasks, notes and attachments stay on your phone</strong> in this version; Android sync comes later, and this policy will say so before it does. The AI assistant is separate (next point).</li>
         <li>The <strong>AI assistant</strong> works only after you agree (on iPhone, signing up includes this agreement — see <em>AI assistant</em>). When you ask it something, your request and the tasks it needs to look at (titles, days, times, subtasks) go through our server to <strong>OpenAI in the United States</strong>, which works out the answer. If you <strong>speak</strong> to it, the recording also goes through our server to OpenAI to be turned into text; our server deletes the recording right after (OpenAI may keep it for up to 30 days). We keep your requests (typed or turned into text from your voice) and the answers for <strong>30 days</strong>, and our team may read them to check quality and stop abuse; usage numbers are kept for 180 days. You can turn it off in Settings at any time.</li>
         <li>If you say yes, the Android app sends us <strong>usage statistics</strong>: which screens you open, how many tasks you make and finish, in broad groups. <strong>Never the words you write</strong>, never your tasks, notes, calendar events or voice. You choose when you sign up, and you can turn it off at any time. The iPhone app does not send usage statistics.</li>
         <li>You can <strong>delete your account</strong> in the app (Android: Settings → your name → Delete account; iPhone: Settings → AI → Delete account). What we hold about you is deleted at once; the few things that are not are listed under <em>What deleting does not remove</em>.</li>
@@ -44,13 +44,16 @@
 
       <h2>What stays on your device</h2>
       <ul>
-        <li>Tasks, their times, durations, repeats, reminders, subtasks, notes and any files you attach.</li>
-        <li>Your day settings: wake and sleep times, working hours, time zone, language, theme.</li>
+        <li>Files and photos you attach to tasks.</li>
+        <li>Tasks, their times, durations, repeats, reminders, subtasks and notes. On iPhone they are also kept on our server while you are signed in (see <em>Your tasks on our server (iPhone)</em>); on Android they stay only on the phone.</li>
+        <li>Your day settings: wake and sleep times, working hours, time zone, language, theme. (On iPhone the wake and sleep times also sync.)</li>
         <li>Plans FlowDays builds for you, including the last plan so you can undo it.</li>
         <li>Focus sessions you run: when they started and ended, and for which task.</li>
+        <li>On iPhone, tasks you deleted, for 30 days in <strong>Recently deleted</strong>, so that you can bring them back.</li>
         <li>A small queue of usage statistics waiting to be sent (Android, only if you said yes — see below).</li>
       </ul>
-      <p>This data stays in the app's private storage on your device. Uninstalling the app deletes it.</p>
+      <p>This data stays in the app's private storage on your device. Uninstalling the app deletes it from the phone; on iPhone the copy of your tasks in your account stays until you delete the tasks or the account.</p>
+      <p>If you turn on your calendar (on iPhone: Settings → My day), FlowDays reads the phone's calendars to show your events as busy time. Event titles and details are not saved by FlowDays and never leave the phone — they are not synced and not sent to the AI assistant. (Google Calendar on Android: see <em>Google user data</em>.)</p>
       <p>If Android backup is turned on for your Google account, Android may include this storage in your phone's backup and restore it on a new phone. That backup is made and kept by Google under your Google account, not by us, and you control it in your phone's backup settings. On iPhone, iCloud Backup or a backup to your computer may include it in the same way; that backup is made by Apple or by you, not by us.</p>
 
       <h2>Your account</h2>
@@ -70,7 +73,19 @@
         </table>
       </div>
       <p>If you sign in with email, we send a 6-digit code to your address. The code is valid for 10 minutes. We keep your address and only a one-way fingerprint of the code, and the record is deleted within about a day after the code expires. FlowDays does not use passwords.</p>
-      <p>Your tasks, notes, calendar and voice recordings are <strong>not</strong> part of your account on our server. If you use the AI assistant, what you asked it (including the text made from your voice), its answers and the titles of the tasks those answers change or ask about are kept for 30 days (see <em>AI assistant</em>).</p>
+      <p>On iPhone your tasks are part of your account (next section); on Android they are not. Your calendar, the files you attach and your voice recordings are <strong>never</strong> part of your account on our server. If you use the AI assistant, what you asked it (including the text made from your voice), its answers and the titles of the tasks those answers change or ask about are kept for 30 days (see <em>AI assistant</em>).</p>
+
+      <h2>Your tasks on our server (iPhone)</h2>
+      <p>While you are signed in on iPhone, FlowDays keeps your tasks in step with your account. The app sends them to our server over an encrypted connection (HTTPS) and fetches the changes made on your other devices. For this our server keeps:</p>
+      <ul>
+        <li><strong>each task:</strong> its title, note, subtasks (their titles and whether each is done), start time and duration or due day, priority, repeat, reminder time and whether the reminder is on, whether it is fixed, pinned or done and when it was done, its place in the Inbox list, the icon and colour it shows, and when it was created;</li>
+        <li>for a repeating task, the <strong>days you finished</strong> it;</li>
+        <li>your <strong>wake and sleep times</strong> and whether they are on.</li>
+      </ul>
+      <p>The app does <strong>not</strong> send: files and photos attached to tasks, which Inbox page a task is on, the days you took out of a repeating task, your other settings (theme, language, voice and so on), focus sessions, calendar events, or what is in <em>Recently deleted</em>.</p>
+      <p><strong>Why:</strong> so that your tasks are the same on every device you sign in on and are not lost with your phone. This is part of the service you signed up for.</p>
+      <p><strong>Deleting a task</strong> removes its content from our server at once, and your other devices remove it too. So that a device that was offline also learns about it, the server keeps only the task's internal number, a version number, the dates and the mark "deleted" — no title, note or other content. For each change the server also keeps a technical record (the change's number, the task's internal number and a one-way fingerprint of the change, never its words), so that a change the app sends twice is not applied twice. These technical records stay until you delete your account.</p>
+      <p><strong>Signing out</strong> keeps your tasks on the iPhone and in your account. <strong>Deleting your account</strong> deletes them from our server at once; they stay on that iPhone (see <em>Your choices and rights</em>).</p>
 
       <h2>Statistics — only if you say yes</h2>
       <p>This section is about the Android app; the iPhone app does not send usage statistics.</p>
@@ -102,7 +117,7 @@
       <p>It <strong>never sends</strong> task notes, attachments, your calendar events (Google or the phone's), contacts, your location or anything from other apps.</p>
       <p><strong>What goes to OpenAI.</strong> Our server passes on your request, the conversation messages, the tasks as listed above, today's date and time and your wake-up and sleep times. If you spoke, it first passes on the recording and may add, as a hint for recognition, the language set for voice input. It does <strong>not</strong> pass on your name, email address, birthday, account number, time zone, app language setting or device details. Instead of your account number OpenAI gets a code made from it with a secret key, so that it can tell one account's requests from another's to prevent abuse, without learning who you are.</p>
       <p>OpenAI (United States) processes this for us, as our service provider, to produce the answer and to turn recordings into text. We tell OpenAI not to store requests for later use (<code>store: false</code>). OpenAI may still keep a request or a recording for <strong>up to 30 days</strong> to detect and stop abuse of its service, and deletes it after that unless the law requires it to keep it longer; we cannot delete or shorten that copy. OpenAI does not use data sent through its API to train its models, and we have not chosen to share it with OpenAI for that.</p>
-      <p><strong>The answer.</strong> The assistant answers by proposing changes to your tasks — new tasks, and changing, moving, finishing or deleting existing ones — or by asking a short question with fixed options. Our server checks the proposal, and your <strong>phone</strong> makes the changes in its own storage; our server does not save your tasks (what it does keep is in the table below). Deleting a task, changing or moving a fixed task, moving a repeating task (the whole series moves) and changes to more than five existing tasks at once wait for you to confirm; other changes are made at once, and the app shows a button to undo them. The only text the assistant writes is the titles, subtasks and notes of the tasks it proposes; everything else you see is fixed text of the app.</p>
+      <p><strong>The answer.</strong> The assistant answers by proposing changes to your tasks — new tasks, and changing, moving, finishing or deleting existing ones — or by asking a short question with fixed options. Our server checks the proposal, and your <strong>phone</strong> makes the changes in its own storage; the assistant does not save your tasks (what it does keep is in the table below). On iPhone the changed tasks then sync with your account like any other change (see <em>Your tasks on our server (iPhone)</em>). Deleting a task, changing or moving a fixed task, moving a repeating task (the whole series moves) and changes to more than five existing tasks at once wait for you to confirm; other changes are made at once, and the app shows a button to undo them. The only text the assistant writes is the titles, subtasks and notes of the tasks it proposes; everything else you see is fixed text of the app.</p>
       <p><strong>What we keep, and for how long.</strong></p>
       <div class="table-wrap">
         <table>
@@ -133,6 +148,7 @@
           <thead><tr><th>What</th><th>Where it goes</th><th>Why</th><th>When</th></tr></thead>
           <tbody>
             <tr><td>Your account details (above)</td><td>Our server</td><td>To create and run your account</td><td>Always</td></tr>
+            <tr><td>Your tasks, the days you finished repeating tasks, and your wake and sleep times (see <em>Your tasks on our server (iPhone)</em>)</td><td>Our server</td><td>To keep your tasks the same on your devices and safe if you lose your phone</td><td>iPhone, whenever you are signed in. Not on Android in this version</td></tr>
             <tr><td>Sign-in with Google</td><td>Google, then our server</td><td>To prove who you are. FlowDays receives a signed proof from Google; we keep only Google's ID for your account</td><td>If you choose Google</td></tr>
             <tr><td>Sign-in with Apple</td><td>Apple, then our server</td><td>To prove who you are. FlowDays receives a signed proof from Apple; we keep only Apple's ID for your account</td><td>If you choose Apple (iPhone)</td></tr>
             <tr><td>Sign-in codes</td><td>An email delivery service, to your address</td><td>To send you the code</td><td>If you choose email (Android). Email sign-in is not switched on yet; we will name the service here before it is</td></tr>
@@ -152,7 +168,7 @@
         <table>
           <thead><tr><th>Provider</th><th>For</th><th>Region</th></tr></thead>
           <tbody>
-            <tr><td>Hetzner Online</td><td>Runs our server and its database (accounts, statistics, AI assistant records)</td><td>Germany (Nuremberg)</td></tr>
+            <tr><td>Hetzner Online</td><td>Runs our server and its database (accounts, tasks synced from iPhone, statistics, AI assistant records)</td><td>Germany (Nuremberg)</td></tr>
             <tr><td>OpenAI</td><td>Works out the AI assistant's answers and turns voice recordings for it into text (see <em>AI assistant</em>)</td><td>United States</td></tr>
             <tr><td>Cloudflare</td><td>Hosts and protects access to our internal admin panel; DNS</td><td>Global</td></tr>
             <tr><td>GitHub Pages</td><td>Hosts flowdays.app (this policy and the support pages)</td><td>Global</td></tr>
@@ -172,9 +188,10 @@
         <li>your statistics choice and every time you changed it;</li>
         <li>your installs (platform, app and Android version, phone or tablet, country) and, <strong>only if you turned statistics on</strong>, your recent usage events with their choices (never words you wrote);</li>
         <li><strong>notes and labels</strong> that staff add to an account to help with support;</li>
+        <li><strong>how many</strong> tasks and other synced records your account has — the number only, never their titles or content;</li>
         <li><strong>only if you use the AI assistant:</strong> the numbers about your requests, the abuse signals, your choices about the assistant, and whether it is blocked or limited for your account. The words of your requests and of the answers can be opened only by the <strong>owner</strong>, for 30 days, and every opening is recorded (see <em>AI assistant</em>).</li>
       </ul>
-      <p>The panel does not show your tasks, notes, files, calendar or voice recordings — they are not on our server, and staff cannot read or hear them. The one exception is what you sent to the AI assistant (including the text made from your voice) and its answers, as described above.</p>
+      <p>The panel never shows the content of your tasks or notes, and it cannot show your files, calendar or voice recordings, which are not on our server. The one exception is what you sent to the AI assistant (including the text made from your voice) and its answers, as described above. The tasks synced from iPhone are in our database; the people who run the server can reach the database to keep it working, and they do not open the content of your tasks except to fix a problem you asked us to fix or when the law requires it.</p>
       <p>Each time a person's account is opened the panel records who looked, when and which internal account number — never your name, birthday, email address or tasks. When the owner opens AI requests, the record also names which requests, but never their words. Those records are kept for 2 years and then deleted.</p>
       <p>We also keep short-lived counters on our server to stop abuse (for example too many sign-in attempts). They are keyed by a one-way fingerprint of the network address, not by the address, and are swept as they expire. The AI assistant's per-minute and per-hour counters are keyed by your account number and last at most a day.</p>
 
@@ -187,6 +204,8 @@
           <thead><tr><th>What</th><th>How long</th></tr></thead>
           <tbody>
             <tr><td>Your account details, session and statistics choices</td><td>Until you delete your account</td></tr>
+            <tr><td>Your tasks synced from iPhone, the days you finished repeating tasks, and your wake and sleep times</td><td>Until you delete them or your account. A deleted task's content is removed at once</td></tr>
+            <tr><td>What remains of a deleted task (internal number, version, dates, the mark "deleted") and the technical records of sync changes (no content)</td><td>Until you delete your account</td></tr>
             <tr><td>Usage events</td><td>180 days, then deleted automatically; or sooner if you ask us to delete them or delete your account</td></tr>
             <tr><td>Install records</td><td>13 months after the install was last active; or when you delete your account</td></tr>
             <tr><td>Sign-in sessions</td><td>A session stops working after 30 days, or when you sign out. The record of it (one-way fingerprints and dates only) stays until you delete your account: it is how we know when you were last active</td></tr>
@@ -199,7 +218,7 @@
             <tr><td>AI assistant: numbers about each request, daily use and abuse signals</td><td>180 days; or when you delete your account. Per-request numbers then become daily totals with no account in them</td></tr>
             <tr><td>AI assistant: a block or personal limit our team set</td><td>Until it is removed or you delete your account</td></tr>
             <tr><td>AI assistant: what OpenAI may keep to detect abuse (requests and voice recordings)</td><td>Up to 30 days, by OpenAI; we cannot delete it</td></tr>
-            <tr><td>A copy of our database that we save on our server before each update of the server, to go back if the update fails</td><td>30 days, then deleted</td></tr>
+            <tr><td>A copy of our database that we save on our server before each update of the server, to go back if the update fails (it includes the tasks synced from iPhone)</td><td>30 days, then deleted</td></tr>
             <tr><td>Our server's technical request lines (no network address, no content, no account)</td><td>They are not about you; they are replaced when the server is updated</td></tr>
           </tbody>
         </table>
@@ -224,7 +243,7 @@
             <tr><td>Speech recognition (iPhone)</td><td>When you first use the iPhone's own speech recognition</td><td>That recognition is unavailable; the AI assistant's voice input and typing still work</td></tr>
             <tr><td>Camera (iPhone)</td><td>When you first take a photo to attach to a task</td><td>You cannot take a photo; the rest of the app works</td></tr>
             <tr><td>Notifications</td><td>When you set a reminder (Android 13 and later, iPhone)</td><td>Reminders are not shown; the rest of the app works</td></tr>
-            <tr><td>Calendar (device calendar, Android)</td><td>When you turn on the device calendar in the app</td><td>The timeline shows tasks only</td></tr>
+            <tr><td>Calendar (the phone's own calendars)</td><td>Android: when you turn on the device calendar in the app. iPhone: when you turn on your calendar in Settings → My day</td><td>The timeline shows tasks only</td></tr>
           </tbody>
         </table>
       </div>
@@ -238,16 +257,16 @@
       <ul>
         <li><strong>Statistics:</strong> turn off and, if you want, delete what was sent — in the app, as described above.</li>
         <li><strong>AI assistant:</strong> turn it off in Settings → AI at any time; it stops at once. What was kept is deleted when its time is up, or at once when you delete your account (see <em>AI assistant</em>). If you want the assistant but not your voice to leave the phone, type instead of speaking.</li>
-        <li><strong>Delete your account:</strong> in the app (Android: Settings → your name → Delete account; iPhone: Settings → AI → Delete account) or see <a href="/delete-account">flowdays.app/delete-account</a>. It is immediate and cannot be undone. It deletes your profile, sign-in method, sessions, statistics and AI choices and their history, usage events and installs, everything the AI assistant kept about you, and our team's notes and labels. On Android FlowDays also erases what it kept on the phone; on iPhone your tasks stay on that iPhone, because there they are the only copy.</li>
-        <li><strong>What deleting does not remove:</strong> records of staff access, which hold only an internal number (see <em>What our team can see</em>); the copies of our database saved before a server update, for up to 30 days (see <em>How long we keep it</em>); a copy of a Google Play review you wrote (write to us); totals that were never about you (store statistics, AI daily totals with no account); the AI assistant's per-minute and per-hour counters, which hold only an internal number and a count, for at most a day; OpenAI's copy of AI requests and voice recordings for up to 30 days; and a phone backup you made yourself (Android backup in your Google account, or an iCloud or computer backup of your iPhone).</li>
-        <li><strong>Everything else:</strong> you can ask us to show you what we hold about you, to correct it (on Android your name, birthday and goals can be changed in the app, in Settings → your name), to give you a copy, or to delete it, by writing to <a href="mailto:support@flowdays.app">support@flowdays.app</a>. We answer within 3 working days and will need to confirm it is your account.</li>
+        <li><strong>Delete your account:</strong> in the app (Android: Settings → your name → Delete account; iPhone: Settings → AI → Delete account) or see <a href="/delete-account">flowdays.app/delete-account</a>. It is immediate and cannot be undone. It deletes your profile, sign-in method, sessions, statistics and AI choices and their history, usage events and installs, the tasks synced from iPhone and what remains of deleted ones, everything the AI assistant kept about you, and our team's notes and labels. On Android FlowDays also erases what it kept on the phone; on iPhone your tasks stay on that iPhone, because after the deletion it holds the only copy.</li>
+        <li><strong>What deleting does not remove:</strong> records of staff access, which hold only an internal number (see <em>What our team can see</em>); the copies of our database saved before a server update, including synced tasks, for up to 30 days (see <em>How long we keep it</em>); a copy of a Google Play review you wrote (write to us); totals that were never about you (store statistics, AI daily totals with no account); the AI assistant's per-minute and per-hour counters, which hold only an internal number and a count, for at most a day; OpenAI's copy of AI requests and voice recordings for up to 30 days; and a phone backup you made yourself (Android backup in your Google account, or an iCloud or computer backup of your iPhone).</li>
+        <li><strong>Everything else:</strong> you can ask us to show you what we hold about you, to correct it (on Android your name, birthday and goals can be changed in the app, in Settings → your name), to give you a copy, or to delete it, by writing to <a href="mailto:support@flowdays.app">support@flowdays.app</a>. We answer within 3 working days and will need to confirm it is your account. On iPhone you can also save a copy of your tasks yourself, in Settings → About → Export tasks.</li>
         <li><strong>Withdrawing consent</strong> for statistics or for the AI assistant does not affect what was done before you withdrew.</li>
         <li>If you live in the European Economic Area, the United Kingdom, Switzerland or Türkiye you have the rights of your data protection law (access, correction, deletion, restriction, objection, portability), and the right to complain to your data protection authority.</li>
       </ul>
-      <p><strong>Why we may use your data (for people in the EEA/UK):</strong> to provide the account you asked for (contract); to send statistics only if you agreed (consent); to answer the AI assistant requests you make (contract), and to send them and your voice recordings to OpenAI and keep them as described only because you agreed (consent); and to keep the service secure and prevent abuse, including the AI assistant's limits, abuse signals and our team's review against abuse (legitimate interest).</p>
+      <p><strong>Why we may use your data (for people in the EEA/UK):</strong> to provide the account you asked for and, on iPhone, to keep your tasks in sync across your devices (contract); to send statistics only if you agreed (consent); to answer the AI assistant requests you make (contract), and to send them and your voice recordings to OpenAI and keep them as described only because you agreed (consent); and to keep the service secure and prevent abuse, including the AI assistant's limits, abuse signals and our team's review against abuse (legitimate interest).</p>
 
       <h2>Where data is processed</h2>
-      <p>The publisher is in the United States; our server and database are in Germany (Hetzner, Nuremberg). If you use the AI assistant, your requests and voice recordings are also processed by OpenAI in the United States. Where data moves between countries, our providers use the safeguards required by law (for example standard contractual clauses in OpenAI's data processing addendum).</p>
+      <p>The publisher is in the United States; our server and database, with the tasks synced from iPhone, are in Germany (Hetzner, Nuremberg). If you use the AI assistant, your requests and voice recordings are also processed by OpenAI in the United States. Where data moves between countries, our providers use the safeguards required by law (for example standard contractual clauses in OpenAI's data processing addendum).</p>
 
       <h2>Changes to this policy</h2>
       <p>If the policy changes we publish the new version at this address with a new date, and we note the change in the app's release notes. If a change affects what you agreed to for statistics or for the AI assistant, FlowDays shows the new text and asks again.</p>
